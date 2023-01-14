@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.nav-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border: 1px solid rgb(146, 141, 141);
+  }
+  .nav-1-left{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+  }
+  .nav-1-right{
+    display: flex;
+    gap: 20px;
+    padding-right: 10px;
+    align-items: center;
+  }
+  .input-div {
+    display: flex;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid #f4f4f4;
+      border-radius: 5px;
+      height: 40px;
+      padding-left: 10px;
+      width: 250px;
+      background-color: #f4f4f4;
+  }
+  .input-div>input{
+    border: 0;
+      outline: 0;
+      width: 150px;
+      height: 30px;
+      background-color: #f4f4f4;
+  }
+  .input-div:hover{
+    border: 1px solid #ca2f6b;
+      width: 300px;
+  }
+  .sign-btn{
+   
+    background-color: #ca2f6b;
+      border: 0;
+      width: 100px;
+      height: 50px;
+      border-radius: 10px;
+      color: white;
+      font-weight: 700;
+      align-items: center;
+  }
+  .logo{
+   color: #ca2f6b;
+  }
+  .log-in{
+    position: relative;
+    margin-right: 50px;
+  }
+  .sign-in-div{
+    border: 1px solid grey;
+    background-color: #ffffff;
+    margin-top  : 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute ;
+    top: 50px;
+    right: -40%;
+    z-index: 1;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding: 20px 20px;
+   
+  }
+  .sign-in-div button{
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color:#ffffff;
+    color: #ca2f6b;
+    width:80%;
+    height: 50px;
+   font-weight: 700;
+  }
+  .bag{
+    position: relative; 
+  }
+  .shop-div{
+    background-color: white;
+    margin-top  : 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:-40px;
+    right: -40px;
+    height: 100vh;
+    z-index: 1;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding: 20px 20px;
+  }
+  .shop-div img{
+    width: 250px;
+    height: 200px;
+  }
+  .shop-div button{
+    background-color: #ca2f6b;
+    color:#ffffff;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }

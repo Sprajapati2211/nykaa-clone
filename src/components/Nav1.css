@@ -1,0 +1,58 @@
+.nav-2{
+    display: flex ;
+    justify-content: space-evenly;
+    padding: 15px 15px;
+    color: #928d8d;
+    box-shadow:0 3px 5px rgb(168, 162, 162) ;
+}
+.nav-2 p:hover{
+    color: #ca2f6b;
+    font-weight: 600;
+  
+}
+.sale{
+    background-color: #ca2f6b;
+    font-weight: 700;
+    width: 50px;
+    height: 20px;
+    color: #bd98a6;
+    
+}
+.dropdown{
+    position: relative;
+    display:flex;
+  
+}
+.hidden{
+    display: none;
+
+}
+.hidden h4{
+    color: black;
+   
+}
+.dropdown:hover .hidden{
+    display :flex;
+   gap: 20px;
+    margin-top: 50px;
+    position: absolute; 
+   width: 400px;
+
+}
+.face{
+    display: flex;
+ flex-direction: column;
+ gap: 5px;
+}
+.face p:hover{
+    color: #ca2f6b;
+}
+.eyes{
+ background-color: #cfc8c8;
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+}
+.eyes p:hover{
+    color: #ca2f6b;
+}
