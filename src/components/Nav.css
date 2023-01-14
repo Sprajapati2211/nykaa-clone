@@ -104,14 +104,16 @@
     height: 100vh;
     z-index: 1;
     width: 300px;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     gap:10px;
     padding: 20px 20px;
   }
   .shop-div img{
+
     width: 250px;
     height: 200px;
+
   }
   .shop-div button{
     background-color: #ca2f6b;
@@ -120,4 +122,12 @@
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
+  }
+  .shop-arrow{
+    border-bottom: 1px solid rgba(173, 163, 163, 0.5); 
+    padding-bottom: 10px;
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
   }

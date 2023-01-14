@@ -43,8 +43,10 @@ const Nav = () => {
         <BsHandbag onClick={()=>setshop(true)}/>
         {
           shop==true?<div className='shop-div'>
+            <div className='shop-arrow'>
             <AiOutlineArrowLeft onClick={()=>setshop(false)}/>
             <h1>Bag</h1>
+            </div>
           <img src="https://asset.nykaafashion.com/static/assets/empty-cart.37b1b704.png" alt="bag" />
           <h1>Your Shopping Bag is Empty</h1>
           <p>This feels too light! Go on, add all your favourites</p>
