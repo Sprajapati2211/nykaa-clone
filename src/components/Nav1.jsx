@@ -23,7 +23,7 @@ const Nav1 = () => {
           <p>Makeup Remover</p>
           <p>Sindoor</p>
         </div>
-        <div className='eyes'>
+       <div className='eyes'>
         <h4>Eyes</h4>
         <p>Kajal</p>
         <p>Eye liner</p>

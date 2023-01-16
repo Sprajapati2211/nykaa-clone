@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.main-foot-1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3f414d;
+    color: white;
+    padding: 40px 0;
+    gap: 10px;
+    margin-top: 500px; 
+}
+.first-foot button{
+ background-color: transparent;
+ color: white;
+ border: 1px solid white;
+ padding: 10px;
+margin-left: 5px;
+margin-top: 10px;
+}
+.first-foot input{
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid white;
+    padding: 5px;
+}
+.envelope{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    
+}
+.sec-foot{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.mobile-btn{
+    display: flex;
+    
+}
+.mobile{
+    display:flex;
+    align-items: center;
+    gap: 5px;
+    font-size:12px;
+    font-weight: 700;
+}
+.mobile-btn{
+    display: flex;
+    gap: 5px;
+}
+.google{
+    display: flex;
+    border: 1px solid white;
+    background-color:black;
+    align-items: center;
+    padding: 5px ;
+    border-radius: 5px;
+    gap: 5px;
+}
+.google p{
+    font-size: 12px;
+}
+.telephone-icon{
+    display: flex;
+    /* align-items: center; */
+    gap: 20px;
+    
+
+}
+.telephone-p{
+    display: flex;
+   flex-direction: column; 
+    align-items: flex-start;  
+    gap: 20px;
+
+  
+}
+.telephone-p-1{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+}
